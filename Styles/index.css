@@ -58,6 +58,7 @@ nav {
     position: relative;
     margin: 0 0.5vw;
     font-weight: normal;
+    color: #000;
 }
 
 .nav-right a:visited {
