@@ -274,6 +274,9 @@ a.check-cta:visited {
 @media only screen and (max-width: 750px) {
     #my-name {
         font-size: 1.5em;
+        width: 5rem;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     .nav-left {
