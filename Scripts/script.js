@@ -7,16 +7,8 @@ window.onresize = resizeName;
 function resizeName() {
     let x = window.innerWidth;
     if (x <= 750) {
-        shortenName();
+        document.getElementById("my-name").innerHTML = "Helen";
     } else {
-        lengthenName();
+        document.getElementById("my-name").innerHTML = "Helen Ouyang";
     }
-}
-
-function shortenName() {    
-    document.getElementById("my-name").innerHTML = "Helen";
-}
-
-function lengthenName() {
-    document.getElementById("my-name").innerHTML = "Helen Ouyang";
 }
