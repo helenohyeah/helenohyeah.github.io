@@ -80,14 +80,14 @@ nav {
 
 .nav-right li {
     list-style-type: none;
-    padding: 0 0 0 1.5vw;
+    padding: 0 0 0 2vw;
 }
 
 .nav-right a {
     font-weight: normal;
     text-decoration: none;
     position: relative;
-    margin: 0 0.5vw;
+    margin: 4px 0;
     font-weight: normal;
     color: #fff;
 }
@@ -286,11 +286,6 @@ a.check-cta:visited {
     .nav-right {
         margin: 0 8% 0 0;
         font-size: 1.3em;
-    }
-
-    .nav-right a {
-        vertical-align: middle;
-        display: inline-block;
     }
 
     .inner {
