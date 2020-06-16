@@ -45,10 +45,14 @@ nav {
     align-items: center;
 }
 
+#my-name {
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
 .nav-left {
     width: 50vw;
     margin: 0 0 0 15%;
-    font-size: 1.8em;
     font-weight: 800;
     letter-spacing: 0.05em;
     color: #fff;
@@ -76,7 +80,7 @@ nav {
 
 .nav-right li {
     list-style-type: none;
-    padding: 0 1vw;
+    padding: 0 0 0 1.5vw;
 }
 
 .nav-right a {
@@ -265,3 +269,52 @@ a.check-cta:visited {
     
 }
 
+/*Mobile device sizing*/
+
+@media only screen and (max-width: 750px) {
+    #my-name {
+        font-size: 1.5em;
+    }
+
+    .nav-left {
+        margin: 0 0 0 8%;
+    }
+
+    .nav-right {
+        margin: 0 8% 0 0;
+        font-size: 1.3em;
+    }
+
+    .nav-right a {
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    .inner {
+        width: 95vw;
+    }
+
+    #portfoilio-content {
+        width: 95vw;
+    }
+
+    .block {
+        width: 85vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block h3 {
+        margin: 0.5em 0 0 0;
+        line-height: 1.2em;
+    }
+
+    .block a {
+        margin: 0.5em 0 0 0;
+    }
+    
+}
