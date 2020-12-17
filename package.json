@@ -1,0 +1,24 @@
+{
+  "name": "helenohyeah.github.io",
+  "version": "1.0.0",
+  "description": "Personal porfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "./node_modules/.bin/sass --watch scss/main.scss:css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenohyeah/helenohyeah.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helenohyeah/helenohyeah.github.io/issues"
+  },
+  "homepage": "https://github.com/helenohyeah/helenohyeah.github.io#readme",
+  "dependencies": {
+    "sass": "^1.30.0"
+  }
+}
