@@ -67,7 +67,48 @@ const Data = {
       "githubUrl": "",
       "imgSrc": "",
     },
-  ]
+  ],
+  "resume": {
+    "resumeDownloadUrl": "",
+    "workExperience": [
+      {
+        "title": "Product Manager & Scrum Manager",
+        "company": "Optimity Inc",
+        "date": "May 2019 - April 2020",
+        "description": "Managed user research and prioritization of deliverables for a Health and Wellness mobile app. Achievements included increasing completion rate of user onboarding experience from 55% to 82%."
+      },
+      {
+        "title": "Product Manager",
+        "company": "Virgin Mobile",
+        "date": "July 2016 - July 2018",
+        "description": "Managed roadmapping, design, and development of the Virgin Member Rewards mobile app. Achievements included increasing offers viewed by 48% and offers redeemed by 15%."
+      },
+      {
+        "title": "Graduate Leadership Rotation Program",
+        "company": "Bell Canada",
+        "date": "June 2014 - June 2016",
+        "description": "Recruited into Bell's award winning rotation program. Roles worked included Operations Analyst, Performance Analyst, Project Manager, and Product Manager."
+      }
+    ],
+    "skills": {
+      "web": ["JavaScript ES6, ReactJS", "NodeJS", "Express", "JQuery", "RESTful APIs", "Ruby", "Ruby on Rails", "HTML5", "CSS", "SCSS", "Bootstrap", "Babel", "WebPack"],
+      "data": ["SQL", "MySQL", "PostgreSQL"],
+      "testing": ["Mocha", "Chai", "Jest", "RSPEC", "Capybara", "Cypress"],
+      "tools": ["git", "Jira", "Storybook"]
+    },
+    "education": [
+      {
+        "school": "Lighthouse Labs",
+        "date": "2020",
+        "diploma": "Full Stack Web Development"
+      },
+      {
+        "school": "University of Toronto",
+        "dates": "2009 - 2014",
+        "diploma": "B. A. International Relations"
+      }
+    ]
+  }
 }
 
 export default Data;
