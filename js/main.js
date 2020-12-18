@@ -1,29 +1,42 @@
-console.log('hello!');
+import Data from './data.js';
 
-// const { hero, bio } = require('./data.js');
+console.log(Data);
+const { navs, about, projects } = Data;
 
-const hero = {
-  "img": "img/helen.png",
-  "title": "Full Stack Developer\nEx-Product Manager",
-  "subtitle": "I design and code delightfully simple user experiences."
+// console.log(navs);
+// console.log(about);
+
+const generateNav = (data) => {
+  const html = data.map(item => ``)
+  return data.map(item => `<a href="${item.link}">${item.name}</a>`).join('');
 };
-
-const bio = {
-  "intro": "Hi, I'm Helen. Nice to meet you!",
-  "body": "I started my career in tech as a Product Manager where I developed a passion for building amazing user experiences. My love for problem solving and my desire to get more hands on led me to Software Development. Now, I spend my time building delightfully simple user experiences. I'm naturally curious, a fast learner, and I'm always finding ways to improve - one challenge at a time!"
-};
-
-console.log(hero);
-console.log(bio);
 
 const generateAbout = (data) => {
   return `
-    <img src="${data.img}" alt="Profile picture">
-    <h1>${hero.title}<h1>
-    <h3>${hero.subtitle}</h3>
+  <div id="profile">
+    <img src="${data.imgSrc}" alt="Profile picture">
+    <h1>${data.title}<h1>
+    <h3>${data.subtitle}</h3>
+  </div>
+  <div id="bio">
+    <h2>${data.bioIntro}</h2>
+    <p>${data.bioBody}</p>
+  </div>
   `;
 };
 
-const about = document.querySelector('.about');
-console.log(about);
-// about.innerHTML = generateAbout(hero);
+// Render nav
+const $nav = document.querySelector('nav');
+// console.log($nav.innerHTML);
+const navSection = generateNav(navs);
+// console.log(navSection);
+// $nav.innerText = navSection;
+$nav.insertAdjacentHTML('afterbegin', navSection);
+
+// Render about
+const $about = document.querySelector('.about');
+// console.log($about);
+const aboutSection = generateAbout(about);
+// console.log(aboutSection);
+// $about.innerHTML = aboutSection;
+$about.insertAdjacentHTML('afterbegin', aboutSection);
