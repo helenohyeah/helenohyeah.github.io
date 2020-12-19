@@ -69,7 +69,7 @@ const Data = {
     },
   ],
   "resume": {
-    "resumeDownloadUrl": "",
+    "resumeDownloadUrl": "helenouyang.me/resume",
     "workExperience": [
       {
         "title": "Product Manager & Scrum Manager",
@@ -91,24 +91,32 @@ const Data = {
       }
     ],
     "skills": {
-      "web": ["JavaScript ES6, ReactJS", "NodeJS", "Express", "JQuery", "RESTful APIs", "Ruby", "Ruby on Rails", "HTML5", "CSS", "SCSS", "Bootstrap", "Babel", "WebPack"],
-      "data": ["SQL", "MySQL", "PostgreSQL"],
+      "frontend": ["HTML, HTML5", "CSS, SCSS", "JavaScript", "React JS"],
+      "backend": ["Node JS", "Express JS", "mySQL", "PostgreSQL", "Ruby"],
+      // "web": ["JavaScript ES6", "ReactJS", "NodeJS", "Express", "JQuery", "RESTful APIs", "Ruby", "Ruby on Rails", "HTML5", "CSS", "SCSS", "Bootstrap", "Babel", "WebPack"],
+      // "data": ["SQL", "MySQL", "PostgreSQL"],
       "testing": ["Mocha", "Chai", "Jest", "RSPEC", "Capybara", "Cypress"],
       "tools": ["git", "Jira", "Storybook"]
     },
     "education": [
       {
-        "school": "Lighthouse Labs",
+        "name": "Lighthouse Labs",
         "date": "2020",
         "diploma": "Full Stack Web Development"
       },
       {
-        "school": "University of Toronto",
+        "name": "University of Toronto",
         "dates": "2009 - 2014",
         "diploma": "B. A. International Relations"
       }
     ]
-  }
+  },
+  "contact": [
+    { "name": "email", "url": "mailto:ouyang.helen@gmail.com", "icon": "" },
+    { "name": "github", "url": "", "icon": "" },
+    { "name": "linkedin", "url": "", "icon": "" },
+    { "name": "angellist", "url": "", "icon": "" }
+  ]
 }
 
 export default Data;
