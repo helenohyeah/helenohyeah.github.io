@@ -150,3 +150,8 @@ $resume.insertAdjacentHTML('afterbegin', resumeSection);
 const $contact = document.querySelector('.contact');
 const contactSection = generateContact(contact);
 $contact.insertAdjacentHTML('afterbegin', contactSection);
+
+// Render footer section
+const $footer = document.querySelector('footer');
+const footerSection = 'Handcrafted by Helen © 2020';
+$footer.insertAdjacentHTML('afterbegin', footerSection);
