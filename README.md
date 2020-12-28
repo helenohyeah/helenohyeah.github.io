@@ -8,7 +8,7 @@ I'm [Helen](https://helenouyang.me), a former-Product Manager turned Full Stack 
 
 ## 💻 Tools I use
 
-<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" /> <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat&logo=react&logoColor=white" /> <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" /><img alt="Css" src="https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white" /> <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat&logo=sass&logoColor=white" />
+<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" /> <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat&logo=react&logoColor=white" /> <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" /> <img alt="Css" src="https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white" /> <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat&logo=sass&logoColor=white" />
 
 <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat&logo=Node.js&logoColor=white" /> <img alt="Ruby" src="https://img.shields.io/badge/-Ruby-CC342D?style=flat&logo=ruby&logoColor=white" /> <img alt="Ruby on Rails" src="https://img.shields.io/badge/-Ruby on Rails-CC0000?style=flat&logo=ruby-on-rails&logoColor=white" /> <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" /> <img alt="mySql" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
 
