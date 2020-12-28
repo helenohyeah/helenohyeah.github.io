@@ -4,8 +4,9 @@
   "description": "Personal porfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "./node_modules/.bin/sass --watch scss/main.scss:css/main.css"
+    "css:watch": "./node_modules/.bin/sass --watch --poll --no-source-map scss/main.scss:css/main.css",
+    "css": "./node_modules/.bin/sass --no-source-map scss/main.scss css/main.css",
+    "start": "python3 -m http.server"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
     "url": "https://github.com/helenohyeah/helenohyeah.github.io/issues"
   },
   "homepage": "https://github.com/helenohyeah/helenohyeah.github.io#readme",
-  "dependencies": {
+  "devDependencies": {
     "sass": "^1.30.0"
   }
 }
