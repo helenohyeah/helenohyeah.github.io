@@ -10,14 +10,13 @@ body {
 .about {
   height: 100vh;
   width: 100vw;
+  overflow-y: scroll;
 
   #profile {
-    // display: flex;
-    // flex-direction: column;
-    margin-left: auto;
     width: 60vw;
     position: fixed;
-    left: 20%;
+    left: 25%;
+    top: 10%;
 
     #profile-picture {
       height: 300px;
@@ -49,6 +48,62 @@ body {
       left: 180px;
       background: $primary;
       padding: 0.5rem 1rem;
+    }
+  }
+
+  #bio {
+    width: 80vw;
+    position: fixed;
+    left: 10%;
+    top: calc(300px + 15%);
+
+    h2 {
+      position: absolute;
+      background: $primary;
+      padding: 0.5rem 1rem;
+      left: 33%;
+    }
+
+    p {
+      position: absolute;
+      top: 3rem;
+      text-align: center;
+      line-height: 1.5rem;
+    }
+  }
+
+  .contact {
+    margin-top: 90vh;
+    display: flex;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: $dark;
+      font-weight: 600;
+    }
+
+    i {
+      font-size: 2rem;
+      color: $accent;
+    }
+
+    span {
+      position: relative;
+      top: -10%;
+      left: -50%;
+      text-decoration: none;
+      opacity: 0;
+    }
+
+    ._wrapper:hover span {
+      opacity: 1;
+      transition: 0.3s linear;
+    }
+
+    ._wrapper:hover i {
+      opacity: 0.5;
+      transition: 0.3s linear;
     }
   }
 }

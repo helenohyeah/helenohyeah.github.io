@@ -10,7 +10,22 @@ const generateNav = (data) => {
 
 const generateAbout = (data) => {
   const title = data.title.split(/\n/g).join('<br>');
-  console.log('title:', title);
+  const tempContact = `
+  <div class="contact">
+    <div class="_wrapper">
+      <a href="https://helenouyang.me/resume" target="external"><i class="fas fa-file-alt"></i><span id="resume-text">Resume</span></a>
+    </div>
+    <div class="_wrapper">
+      <a href="https://www.linkedin.com/in/helenouyang/" target="external"><i class="fab fa-linkedin"></i><span id="linkedin-text">LinkedIn</span></a>
+    </div>
+    <div class="_wrapper">
+      <a href="https://github.com/helenohyeah" target="external"><i class="fab fa-github"></i><span id="github-text">GitHub</span></a>
+    </div>
+    <div class="_wrapper">
+      <a href="https://angel.co/u/helen-ouyang"><i class="fab fa-angellist"></i><span id="angellist-text">AngelList</span></a>
+    </div>
+  </div>
+  `;
   const html = `
   <div id="profile">
     <div id="profile-picture">
@@ -23,6 +38,7 @@ const generateAbout = (data) => {
     <h2>${data.bioIntro}</h2>
     <p>${data.bioBody}</p>
   </div>
+  ${tempContact}
   `;
   return html;
 };

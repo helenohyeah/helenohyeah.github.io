@@ -70,7 +70,15 @@ html h1 {
   font-size: 2rem;
   font-weight: 700;
 }
+html h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 html h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+html p {
   font-size: 1rem;
   font-weight: 400;
 }
@@ -83,12 +91,13 @@ body {
 .about {
   height: 100vh;
   width: 100vw;
+  overflow-y: scroll;
 }
 .about #profile {
-  margin-left: auto;
   width: 60vw;
   position: fixed;
-  left: 20%;
+  left: 25%;
+  top: 10%;
 }
 .about #profile #profile-picture {
   height: 300px;
@@ -117,6 +126,53 @@ body {
   left: 180px;
   background: #a1e4cc;
   padding: 0.5rem 1rem;
+}
+.about #bio {
+  width: 80vw;
+  position: fixed;
+  left: 10%;
+  top: calc(300px + 15%);
+}
+.about #bio h2 {
+  position: absolute;
+  background: #a1e4cc;
+  padding: 0.5rem 1rem;
+  left: 33%;
+}
+.about #bio p {
+  position: absolute;
+  top: 3rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.about .contact {
+  margin-top: 90vh;
+  display: flex;
+  justify-content: center;
+}
+.about .contact a {
+  text-decoration: none;
+  color: #000022;
+  font-weight: 600;
+}
+.about .contact i {
+  font-size: 2rem;
+  color: #e07a5f;
+}
+.about .contact span {
+  position: relative;
+  top: -10%;
+  left: -50%;
+  text-decoration: none;
+  opacity: 0;
+}
+.about .contact ._wrapper:hover span {
+  opacity: 1;
+  transition: 0.3s linear;
+}
+.about .contact ._wrapper:hover i {
+  opacity: 0.5;
+  transition: 0.3s linear;
 }
 
 /*# sourceMappingURL=main.css.map */
