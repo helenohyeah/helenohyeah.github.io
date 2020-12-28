@@ -91,8 +91,8 @@ const Data = {
       }
     ],
     "skills": {
-      "frontend": ["HTML, HTML5", "CSS, SCSS", "JavaScript", "React JS"],
-      "backend": ["Node JS", "Express JS", "mySQL", "PostgreSQL", "Ruby"],
+      "frontend": ["HTML5", "CSS, SASS", "JavaScript", "React"],
+      "backend": ["Node JS", "Express JS", "mySQL", "PostgreSQL", "Ruby, Ruby on Rails"],
       // "web": ["JavaScript ES6", "ReactJS", "NodeJS", "Express", "JQuery", "RESTful APIs", "Ruby", "Ruby on Rails", "HTML5", "CSS", "SCSS", "Bootstrap", "Babel", "WebPack"],
       // "data": ["SQL", "MySQL", "PostgreSQL"],
       "testing": ["Mocha", "Chai", "Jest", "RSPEC", "Capybara", "Cypress"],
