@@ -9,7 +9,7 @@ const generateNav = (data) => {
 };
 
 const generateAbout = (data) => {
-  const title = data.title.split(/\n/g).join('<br>');
+  const title = data.title.split(/\n/g).join('<br>& ');
   const tempContact = `
   <div class="contact">
     <div class="_wrapper">

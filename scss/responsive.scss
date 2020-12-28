@@ -1,0 +1,83 @@
+@import 'colours';
+@import 'typography';
+
+// Mobile and Tablet
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    #profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: static;
+      width: inherit;
+
+      #profile-picture {
+        height: 250px;
+        width: 250px;
+        position: static;
+        margin: 1rem;
+        box-shadow: none;
+      }
+
+      h1 {
+        position: static;
+        padding: 0.25rem 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        position: static;
+        text-align: center;
+        background: $light;
+        margin: 0.5rem 0;
+      }
+    }
+    
+    #bio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: static;
+      width: inherit;
+      padding: 0 2rem;
+
+      h2 {
+        position: static;
+        text-align: center;
+        margin: 1rem 0;
+      }
+
+      p {
+        position: static;
+        text-align: center;
+      }
+    }
+
+    .contact {
+      position: static;
+      margin: 2rem 0;
+      width: inherit;
+      justify-content: center;
+      align-items: center;
+      
+      ._wrapper > a {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        i {
+          align-self:center;
+        }
+        span {
+          position: static;
+          opacity: 1;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

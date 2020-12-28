@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+html {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 18px;
+}
+html h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+html h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+html h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+html p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    width: inherit;
+  }
+  .about #profile #profile-picture {
+    height: 250px;
+    width: 250px;
+    position: static;
+    margin: 1rem;
+    box-shadow: none;
+  }
+  .about #profile h1 {
+    position: static;
+    padding: 0.25rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .about #profile h3 {
+    position: static;
+    text-align: center;
+    background: #f4efef;
+    margin: 0.5rem 0;
+  }
+  .about #bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    width: inherit;
+    padding: 0 2rem;
+  }
+  .about #bio h2 {
+    position: static;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .about #bio p {
+    position: static;
+    text-align: center;
+  }
+  .about .contact {
+    position: static;
+    margin: 2rem 0;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .contact ._wrapper > a {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .about .contact ._wrapper > a i {
+    align-self: center;
+  }
+  .about .contact ._wrapper > a span {
+    position: static;
+    opacity: 1;
+    font-size: 0.8rem;
+  }
+}

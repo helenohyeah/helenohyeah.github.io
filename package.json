@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "css:watch": "./node_modules/.bin/sass --watch --poll --no-source-map scss/main.scss:css/main.css",
-    "css": "./node_modules/.bin/sass --no-source-map scss/main.scss css/main.css",
+    "css": "./node_modules/.bin/sass --no-source-map scss/:css/",
     "start": "python3 -m http.server"
   },
   "repository": {

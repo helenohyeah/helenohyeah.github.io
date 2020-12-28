@@ -84,7 +84,7 @@ html p {
 }
 
 body {
-  background-color: #fff;
+  background-color: #f4efef;
   color: #000022;
 }
 
@@ -96,13 +96,13 @@ body {
 .about #profile {
   width: 60vw;
   position: fixed;
-  left: 25%;
+  left: 30%;
   top: 10%;
 }
 .about #profile #profile-picture {
   height: 300px;
   width: 300px;
-  background: #f4efef;
+  background: #fff;
   overflow: hidden;
   border-style: hidden;
   border-radius: 50%;
@@ -128,16 +128,16 @@ body {
   padding: 0.5rem 1rem;
 }
 .about #bio {
-  width: 80vw;
+  width: 60vw;
   position: fixed;
-  left: 10%;
+  left: 20%;
   top: calc(300px + 15%);
 }
 .about #bio h2 {
   position: absolute;
   background: #a1e4cc;
   padding: 0.5rem 1rem;
-  left: 33%;
+  left: 28%;
 }
 .about #bio p {
   position: absolute;
@@ -149,6 +149,7 @@ body {
   margin-top: 90vh;
   display: flex;
   justify-content: center;
+  margin-left: 5rem;
 }
 .about .contact a {
   text-decoration: none;
@@ -171,8 +172,6 @@ body {
   transition: 0.3s linear;
 }
 .about .contact ._wrapper:hover i {
-  opacity: 0.5;
+  color: rgba(224, 122, 95, 0.5);
   transition: 0.3s linear;
 }
-
-/*# sourceMappingURL=main.css.map */
