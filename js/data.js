@@ -24,9 +24,9 @@ const Data = {
   "about": {
     "imgSrc": "img/helen.png",
     "title": "Full Stack Developer\nEx-Product Manager",
-    "subtitle": "I design and code delightfully simple user experiences.",
+    "subtitle": "I build simple beautiful experiences that are fun to use!",
     "bioIntro": "Hi, I'm Helen. Nice to meet you!",
-    "bioBody": "I started my career in tech as a Product Manager where I developed a passion for building amazing user experiences. My love for problem solving and my desire to get more hands on led me to Software Development. Now, I spend my time building delightfully simple user experiences. I'm naturally curious, a fast learner, and I'm always finding ways to improve - one challenge at a time!"
+    "bioBody": "I started my career in tech as a Product Manager where I developed a passion for building amazing user experiences. My love for problem solving and my desire to get more hands on led me to Software Development and a 12 week web development boot camp. Armed with my new skills and a thirst for knowledge, I'm more excited than ever to build things! I'm naturally curious, a fast learner, and I'm always finding ways to improve - one challenge at a time.\n\nWhen I'm not coding you'll find me climbing rocks or cycling around Toronto."
   },
   "projects": [
     {

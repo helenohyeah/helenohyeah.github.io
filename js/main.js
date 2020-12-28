@@ -9,10 +9,14 @@ const generateNav = (data) => {
 };
 
 const generateAbout = (data) => {
+  const title = data.title.split(/\n/g).join('<br>');
+  console.log('title:', title);
   const html = `
   <div id="profile">
-    <img src="${data.imgSrc}" alt="Profile picture">
-    <h1>${data.title}<h1>
+    <div id="profile-picture">
+      <img src="${data.imgSrc}" alt="Profile picture">
+    </div>
+    <h1>${title}</h1>
     <h3>${data.subtitle}</h3>
   </div>
   <div id="bio">
@@ -127,9 +131,9 @@ const generateContact = (data) => {
 };
 
 // Render nav
-const $nav = document.querySelector('nav');
-const navSection = generateNav(navs);
-$nav.insertAdjacentHTML('afterbegin', navSection);
+// const $nav = document.querySelector('nav');
+// const navSection = generateNav(navs);
+// $nav.insertAdjacentHTML('afterbegin', navSection);
 
 // Render about
 const $about = document.querySelector('.about');
@@ -137,21 +141,21 @@ const aboutSection = generateAbout(about);
 $about.insertAdjacentHTML('afterbegin', aboutSection);
 
 // Render projects
-const $projects = document.querySelector('.projects');
-const projectSection = generateProjects(projects);
-$projects.insertAdjacentHTML('afterbegin', projectSection);
+// const $projects = document.querySelector('.projects');
+// const projectSection = generateProjects(projects);
+// $projects.insertAdjacentHTML('afterbegin', projectSection);
 
-// Render resume section
-const $resume = document.querySelector('.resume');
-const resumeSection = generateResume(resume);
-$resume.insertAdjacentHTML('afterbegin', resumeSection);
+// // Render resume section
+// const $resume = document.querySelector('.resume');
+// const resumeSection = generateResume(resume);
+// $resume.insertAdjacentHTML('afterbegin', resumeSection);
 
-// Render contact section
-const $contact = document.querySelector('.contact');
-const contactSection = generateContact(contact);
-$contact.insertAdjacentHTML('afterbegin', contactSection);
+// // Render contact section
+// const $contact = document.querySelector('.contact');
+// const contactSection = generateContact(contact);
+// $contact.insertAdjacentHTML('afterbegin', contactSection);
 
-// Render footer section
-const $footer = document.querySelector('footer');
-const footerSection = 'Handcrafted by Helen © 2020';
-$footer.insertAdjacentHTML('afterbegin', footerSection);
+// // Render footer section
+// const $footer = document.querySelector('footer');
+// const footerSection = 'Handcrafted by Helen © 2020';
+// $footer.insertAdjacentHTML('afterbegin', footerSection);
